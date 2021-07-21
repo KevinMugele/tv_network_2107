@@ -24,6 +24,4 @@ RSpec.describe Character do
 
     expect(kitt.salary).to eq(1000000)
   end
-
-
 end
