@@ -13,10 +13,16 @@ RSpec.describe Character do
     expect(kitt.name).to eq("KITT")
   end
 
-  it "has a name" do
+  it "has a actor" do
     kitt = Character.new({name: "KITT", actor: "William Daniels", salary: 1_000_000})
 
-    expect(kitt.name).to eq("KITT")
+    expect(kitt.actor).to eq("William Daniels")
+  end
+
+  it "has a salary" do
+    kitt = Character.new({name: "KITT", actor: "William Daniels", salary: 1_000_000})
+
+    expect(kitt.salary).to eq(1000000)
   end
 
 
