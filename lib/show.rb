@@ -5,7 +5,7 @@ class Show
   def initialize(name, creator, characters)
     @name = name
     @creator = creator
-    @chracters = characters
+    @characters = characters
   end
 
 
